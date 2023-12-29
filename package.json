@@ -4,11 +4,12 @@
   "description": "API dengan menggunakan Nodejs + Mongodb",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/fitrahrh/tugaspertemuan2"
+    "url": "https://github.com/fitrahrh/Tugas2Per2"
   },
   "author": "Fitrah & Naufal",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
